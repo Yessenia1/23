@@ -1,0 +1,90 @@
+body{
+    font-family: monospace;
+}
+header{
+    /*background-color: rgba(164, 100, 237, 0.678);*/
+    background-image: url("img/luna.jpg");
+    /*https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fes%2Fvector%2Fplantilla-de-silueta-de-bosque-de-con%25C3%25ADferas-gm1165540689-320746988&psig=AOvVaw1kZm0Fn3kXes9_rjUrSkS7&ust=1680788477937000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPC6l-KLk_4CFQAAAAAdAAAAABAD*/
+    /*https://cssgradient.io/*/
+    /*background: rgb(238,174,202);*/
+    /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+    height: 130px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 0px 50px 0 0;
+    
+    
+}
+h2{
+    margin: 0px;
+    padding-top: 45px;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px black;
+}
+nav{
+    background-color: #9286fcb6;
+    height: 60px;
+    border-radius: 0px 10px 10px 10px;
+    text-align: center;
+    color: white;
+}
+
+nav ul{
+    margin: 0;
+    padding: 23px;
+}
+
+nav ul li{
+    display:inline;
+    background-color: #7982ff;
+    padding: 10px 10px 10px 15px;
+    border-radius: 5px;
+}
+
+nav ul li:hover{
+    background-color: #a4a9fc;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    float: left;
+    width: 80%;
+    height: 300px;
+    background-color: lavenderblush;
+    padding: 10px;/*dentro de la caja y margin fuera d el apagina*/
+}
+
+aside{
+    background-color: lavender;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+aside ol{
+    list-style: none;
+}
+
+h3{
+    margin: 0;
+}
+
+footer{
+    /*background-color: cornflowerblue;*/
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    text-align: center;
+    height: 30px;
+    color: rgb(138, 133, 133);
+    border-radius: 15px;
+    
+}
+footer p{
+    margin: 0;
+    padding-top: 5px;
+}
